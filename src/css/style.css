@@ -4,16 +4,21 @@
 }
 body{
     background-color: white;
+    /* background: linear-gradient(to bottom, #FF9E68, #FF68DE); */
 }
 
 section{
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
+}
+h1{
+    color: #C668FF
 }
 
 /*  ---Navbar section---    */
 .navbar-section{
     /* background-color: #fc6077; */
-    background-color: #a481f7;
+    /* background-color: #a481f7; */
+    background: linear-gradient(to bottom, #FF9E68, #FF68DE);
 }
 .navbar{
     height: 60px;
@@ -60,6 +65,7 @@ section{
 }
 .pre-h1{
     font-size: 30px;
+    color: #6889FF;
 }
 .logo{
     height: 230px;
@@ -68,20 +74,43 @@ section{
 
 
 
-/*  ---Sabor section---    */
+/*  ---Menu section---    */
+.menu-div{
+    /* margin-bottom: 3rem; */
+    height: 440px;
+    width: 100%;
+}
 
+.menu-tabla{
+    
+    padding: 0rem 3rem;
+    margin: 0rem 4rem 2rem 5rem;
+}
 
+#sabores-div{
+    float: left;
+}
 
-
-/*  ---Adorno section---    */
-
-
-
-
+#adornos-div{
+    float: right;
+}
+.pastel-image{
+    height: 400px;
+    width: 800px;
+    margin-left: 20%;
+}
+.carousel-control-next-icon,.carousel-control-prev-icon{
+    background-color: #FF68DE;
+    border-radius: 100%;
+}
 /*  ---Pedido section---    */
+
+.h1-section{
+    text-align: center;
+}
 table{
     margin-top: 2rem;
-    border: 1px solid black;
+    border: 2px solid #a481f7;;
     color:rgba(70, 73, 75, 0.836);
     background-color: white;
 }
