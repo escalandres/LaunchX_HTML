@@ -142,7 +142,7 @@ td{
     margin: 2rem 3rem 2rem 1rem;
     border: 2px solid #a481f7;
     width: 350px;
-    height: 410px;
+    height: 460px;
     padding: 1rem;
 }
 
@@ -193,7 +193,20 @@ td{
     width: 90%;
 }
 
+#btn-pedido{
+    width: 30%;
+    margin-left: 35%;
+    margin-bottom: 2rem;
+    /* background: linear-gradient(to bottom right, #6889FF, #C668FF); */
+    background-color: #6889FF;
+    border-color: #6889FF;
+    /* border: linear-gradient(to bottom right, #6889FF, #C668FF); */
+}
+
 /*  ---Contacto section---    */
+#contacto-section{
+    margin-top: 11rem;
+}
 .contacto-h2{
     margin-top: 3rem;
     margin-left: 0.7rem;
