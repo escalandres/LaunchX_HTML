@@ -1,0 +1,118 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: white;
+}
+
+section{
+    margin-bottom: 5rem;
+}
+
+/*  ---Navbar section---    */
+.navbar-section{
+    /* background-color: #fc6077; */
+    background-color: #a481f7;
+}
+.navbar{
+    height: 60px;
+    width: 100%;
+}
+.logo-nav{
+    height: 50px;
+    width: 50px;
+    border-radius: 90%;
+}
+.n-left{
+    margin-left:2.5rem;
+    
+}
+.niv{
+    margin-right: 1.5rem;
+    font-weight: 800;
+}
+#adorno-btn,#sabor-btn,#contacto-btn,#pedido-btn{
+    color: white;
+}
+.s-cross-center {
+    -moz-box-align: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sabor-btn{
+    border: 0px solid;
+    border-radius: 5px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    text-decoration: none;
+}
+
+/*  ---Presentacion section---    */
+
+.presentacion-section{
+    margin-top: -3rem;
+    text-align: center;
+    
+}
+.pre-h1{
+    font-size: 30px;
+}
+.logo{
+    height: 230px;
+    width: 224px;
+}
+
+
+
+/*  ---Sabor section---    */
+
+
+
+
+/*  ---Adorno section---    */
+
+
+
+
+/*  ---Pedido section---    */
+table{
+    margin-top: 2rem;
+    border: 1px solid black;
+    color:rgba(70, 73, 75, 0.836);
+    background-color: white;
+}
+thead{
+    text-align: center;
+}
+tr{
+    border: 1px solid black;
+}
+th,td{
+    
+    border: 1px solid;
+    padding: 1rem 1.5rem;
+    border-color:rgba(70, 73, 75, 0.623);
+}
+td{
+    text-align: left;
+}
+
+
+/*  ---Footer section---    */
+.social-icon{
+    margin: 40px 10px;
+}
+
+.footer-section{
+    padding: 2% 15%;
+    text-align: center;
+}
+
+.white-section{
+    background-color:#fff;
+    color: #000;
+}
