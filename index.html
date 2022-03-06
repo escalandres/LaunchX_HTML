@@ -13,6 +13,36 @@
     <title>Dulces Postres</title>
 </head>
 <body>
+    <!-- <header class="s-fixed"> -->
+        <section class="s-fixed navbar-section" id="navbars">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                    <a href="#"><img class="logo-nav" src="./src/img/logopasteles.PNG" alt=""></a>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <div class="n-left s-cross-center">
+                            <li class="nav-item niv">
+                                <div class="sabor-div">
+                                    <a id="sabor-btn" class="nav-link nbtn" href="#menu-section">Sabores y adornos</a>
+                                </div>
+                            </li>
+                            <li class="nav-item niv">
+                                <div class="pedidoo-div">
+                                    <a id="pedido-btn" class="nav-link" href="#pedido-section">Hacer pedido</a>
+                                </div>
+                            </li>
+                            <li class="nav-item niv">
+                                <div class="contacto-div">
+                                    <a id="contacto-btn" class="nav-link" href="#contacto-section">Contacto</a>
+                                </div>
+                            </li>
+                        </div>
+                    </ul>
+                    
+                </div>
+            </nav>
+        </section>
+    <!-- </header> -->
+    
     <section class="navbar-section" id="navbars">
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid">
@@ -147,108 +177,105 @@
     <section id="pedido-section">
         <h1 class="h1-section">Haz tu pedido</h1>
         <div class="form-section">
-            <form action="">
-                <div class="nombres">
-                    <div class="name-div">
-                        <label for="">Nombre(s)</label>
-                        <input type="text" name="name">
-                    </div>
-                    <div class="lastname-div">
-                        <label for="">Apellidos(s)</label>
-                        <input type="text" name="lastname">
+            <form action="" class="">
+                <div class="pedidos-form" id="cliente-div">
+                    <h2 class="pedido-h2">Ingrese sus datos</h2>
+                    <div class="pdiv">
+                        <div class="inter-pdiv name-div">
+                            <label for="">Nombre(s): </label>
+                            <div class="datos-input">
+                                <input class="pedidos-input" type="text" name="name">
+                            </div>
+                            
+                        </div>
+                        <div class="inter-pdiv lastname-div">
+                            <label for="">Apellidos(s):</label>
+                            <div class="datos-input">
+                                <input class="pedidos-input" type="text" name="lastname">
+                            </div>
+                            
+                        </div>
+                        <div class="inter-pdiv cellphone-div">
+                            <label for="">Celular:</label>
+                            <div class="datos-input">
+                                <input class="pedidos-input" type="number" name="cellphone" maxlength="10" minlength="10" placeholder="5555550000">
+                            </div>
+                        </div>
+                        <div class="inter-pdiv email-div">
+                            <label for="">Correo Electrónico: </label>
+                            <div class="datos-input">
+                                <input class="pedidos-input" id="email-input" type="email" name="email" placeholder="dulces@pasteles.com">
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="datos">
-                    <div class="cellphone-div">
-                        <label for="">Celular</label>
-                        <input type="number" name="cellphone" maxlength="10" minlength="10" placeholder="5555550000">
-                    </div>
-                    <div class="email-div">
-                        <label for="">Correo Electrónico</label>
-                        <input type="email" name="email" placeholder="dulces@pasteles.com">
-                    </div>
-                </div>
+                
                 <div class="pedido-option">
-                    <div class="pedido-sabores">
-                        <h1>Sabores</h1>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th>Sabores</th>
-                                    <th>Precios</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Chocolate</td>
-                                    <td>$  100.00  MXN</td>
-                                </tr>
-                                <tr>
-                                    <td>Vainilla</td>
-                                    <td>$  100.00  MXN</td>
-                                </tr>
-                                <tr>
-                                    <td>Marmoleado</td>
-                                    <td>$  100.00  MXN</td>
-                                </tr>
-                                <tr>
-                                    <td>Zanahoria</td>
-                                    <td>$  100.00  MXN</td>
-                                </tr>
-                                <tr>
-                                    <td>3 leche</td>
-                                    <td>$  100.00  MXN</td>
-                                </tr>
-                            </tbody>
-                            
-                        </table>
+                    <div class="pedidos-form" id="sabores-div">
+                        <h2 class="pedido-h2">Seleccione los sabores</h2>
+                        <div class="form-check check">
+                            <input class="form-check-input" name="sabores-check" type="checkbox" value="1" id="flexCheckDefault">
+                            <label class="form-check-label check-label" for="flexCheckDefault">Chocolate</label>
+                        </div>
+                        <div class="form-check check">
+                            <input class="form-check-input" name="sabores-check" type="checkbox" value="2" id="flexCheckChecked">
+                            <label class="form-check-label check-label" for="flexCheckChecked">Vainilla</label>
+                        </div>
+                        <div class="form-check check">
+                            <input class="form-check-input" name="sabores-check" type="checkbox" value="3" id="flexCheckChecked">
+                            <label class="form-check-label check-label" for="flexCheckChecked">Marmoleado</label>
+                        </div>
+                        <div class="form-check check">
+                            <input class="form-check-input" name="sabores-check" type="checkbox" value="4" id="flexCheckChecked">
+                            <label class="form-check-label check-label" for="flexCheckChecked">Zanahoria</label>
+                        </div>
+                        <div class="form-check check">
+                            <input class="form-check-input" name="sabores-check" type="checkbox" value="5" id="flexCheckChecked">
+                            <label class="form-check-label check-label" for="flexCheckChecked">3 leches</label>
+                        </div>
+                        <h3 class="pedido-h3">-- Puede combinar hasta 2 sabores --</h3>
                     </div>
-                    <div class="pedido-adornos">
-                        <h1>Adornos</h1>
-                        <table >
-                            <thead>
-                                <tr>
-                                    <th>Adornos</th>
-                                    <th>Precios</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Chispas de Chocolate</td>
-                                    <td>$  100.00  MXN</td>
-                                </tr>
-                                <tr>
-                                    <td>Bañado de Chocolate</td>
-                                    <td>$  100.00  MXN</td>
-                                </tr>
-                                <tr>
-                                    <td>Glaseado</td>
-                                    <td>$  100.00  MXN</td>
-                                </tr>
-                                <tr>
-                                    <td>Nombre personalizado</td>
-                                    <td>$  100.00  MXN</td>
-                                </tr>
-                                <tr>
-                                    <td>Imagen decorativa</td>
-                                    <td>$  100.00  MXN</td>
-                                </tr>
-                            </tbody>
-                            
-                        </table>
+                    <div class="pedidos-form" id="sabores-div">
+                        <h2 class="pedido-h2">Seleccione los adornos</h2>
+                        <div class="form-check check">
+                            <input class="form-check-input" name="adornos-check" type="checkbox" value="1" id="flexCheckDefault">
+                            <label class="form-check-label check-label" for="flexCheckDefault">Chispas de Chocolate</label>
+                        </div>
+                        <div class="form-check check">
+                            <input class="form-check-input" name="adornos-check" type="checkbox" value="2" id="flexCheckChecked">
+                            <label class="form-check-label check-label" for="flexCheckChecked">Bañado de Chocolate</label>
+                        </div>
+                        <div class="form-check check">
+                            <input class="form-check-input" name="adornos-check" type="checkbox" value="3" id="flexCheckChecked">
+                            <label class="form-check-label check-label" for="flexCheckChecked">Glaseado</label>
+                        </div>
+                        <div class="form-check check">
+                            <input class="form-check-input" name="adornos-check" type="checkbox" value="4" id="flexCheckChecked">
+                            <label class="form-check-label check-label" for="flexCheckChecked">Nombre personalizado</label>
+                        </div>
+                        <div class="form-check check">
+                            <input class="form-check-input" name="adornos-check" type="checkbox" value="5" id="flexCheckChecked">
+                            <label class="form-check-label check-label" for="flexCheckChecked">Imagen decorativa</label>
+                        </div>
+                        <h3 class="pedido-h3">-- Puede combinar hasta 4 adornos --</h3>
                     </div>
+
                 </div>
-                <!-- Nombre, 
-                Teléfono, 
-                Correo Electrónico, 
-                Descripción general del pastel y 
-                la selección de sabores y adornos. -->
             </form>
         </div>
     </section> 
     <section id="contacto-section">
-        
         <h1 class="h1-section">Contacto</h1>
+        <h2 class="contacto-h2">Ante cualquier duda, puede contactarlos por los siguientes medios:</h2>
+        <div class="contacto-div">
+            <h3 class="contacto-h3">Telefono: 5500550055</h3>
+            <h3 class="contacto-h3">Whatsapp: 5500110011</h3>
+            <h3 class="contacto-h3">Correo Electrónico: dulcepostres@gmail.com</h3>
+            <h3 class="contacto-h3">Sucursal: Av 742 Evergreen Terrace, Springfield </h3>
+            <h2 class="contacto-h2">Horarios de atencion</h2>
+            <h3 class="contacto-h3">Lunes - Viernes: 9am a 6pm</h3>
+            <h3 class="contacto-h3">Sabado, Domingo y Feriados: 10am a 6pm</h3>
+        </div>
     </section> 
     <footer>
         <div class="container-fluid footer-section">

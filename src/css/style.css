@@ -6,7 +6,11 @@ body{
     background-color: white;
     /* background: linear-gradient(to bottom, #FF9E68, #FF68DE); */
 }
-
+.s-fixed{
+    z-index:100;
+    position:fixed;
+    width:100%;
+}
 section{
     margin-bottom: 3rem;
 }
@@ -129,8 +133,79 @@ th,td{
 td{
     text-align: left;
 }
+#pedido-section{
+    height: 500px;
+    width: 100%;
+}
 
+.pedidos-form{
+    margin: 2rem 3rem 2rem 1rem;
+    border: 2px solid #a481f7;
+    width: 350px;
+    height: 410px;
+    padding: 1rem;
+}
 
+#cliente-div{
+    float: left;
+    margin-left: 5rem;
+}
+#sabores-div{
+    float: center;
+}
+
+#adornos-div{
+    float: right;
+}
+
+.pedido-h2{
+    font-size: 24px;
+    text-align: center;
+    color: #FF7C60;
+    margin-bottom: 2.5rem;
+}
+.check{
+    margin: 0.5rem 1.5rem 1rem 1rem;
+
+}
+.check-label{
+    font-size: 17px;
+}
+
+.pdiv{
+    margin-bottom: 2rem;
+}
+
+.inter-pdiv{
+    margin-bottom: 1rem;
+}
+.datos-input{
+    margin: 0.5rem 0rem 1rem;
+}
+
+.pedido-h3{
+    font-size: 18px;
+    color: rgb(46, 46, 46);
+    margin-top: 3rem;
+}
+
+.pedidos-input{
+    width: 90%;
+}
+
+/*  ---Contacto section---    */
+.contacto-h2{
+    margin-top: 3rem;
+    margin-left: 0.7rem;
+    font-size: 25px;
+    color: #FF7C60;
+}
+.contacto-h3{
+    margin-top: 1rem;
+    margin-left: 2.2rem;
+    font-size: 20px;
+    color: rgb(80, 80, 80);
+}
 /*  ---Footer section---    */
 .social-icon{
     margin: 40px 10px;
