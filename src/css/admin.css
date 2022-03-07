@@ -1,0 +1,102 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: white;
+    /* background: linear-gradient(to bottom, #FF9E68, #FF68DE); */
+}
+.s-fixed{
+    z-index:100;
+    position:fixed;
+    width:100%;
+}
+section{
+    margin-bottom: 3rem;
+}
+h1{
+    color: #C668FF;
+    margin-left: 1rem;
+}
+
+/*  ---Navbar section---    */
+.navbar-section{
+    /* background-color: #fc6077; */
+    /* background-color: #a481f7; */
+    background: linear-gradient(to bottom, #FF9E68, #FF68DE);
+}
+.navbar{
+    height: 60px;
+    width: 100%;
+}
+.logo-nav{
+    height: 50px;
+    width: 50px;
+    border-radius: 90%;
+}
+.n-left{
+    margin-left:2.5rem;
+    
+}
+.niv{
+    margin-right: 1.5rem;
+    font-weight: 800;
+}
+#adorno-btn,#sabor-btn,#contacto-btn,#pedido-btn{
+    color: white;
+}
+.s-cross-center {
+    -moz-box-align: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sabor-btn{
+    border: 0px solid;
+    border-radius: 5px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    text-decoration: none;
+}
+
+table{
+    margin-left: 4rem;
+    margin-right: 3rem;
+    margin-top: 2rem;
+    border: 2px solid #a481f7;;
+    color:rgba(70, 73, 75, 0.836);
+    background-color: white;
+}
+thead{
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+tr{
+    border: 1px solid black;
+}
+th,td{
+    
+    border: 1px solid;
+    padding: 1rem 1.5rem;
+    border-color:rgba(70, 73, 75, 0.623);
+}
+td{
+    text-align: left;
+}
+
+/*  ---Footer section---    */
+.social-icon{
+    margin: 40px 10px;
+}
+
+.footer-section{
+    padding: 2% 15%;
+    text-align: center;
+}
+
+.white-section{
+    background-color:#fff;
+    color: #000;
+}

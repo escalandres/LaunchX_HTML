@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./src/img/icon.png">
+    <link rel="stylesheet" href="./src/css/admin.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"></script>
+    <title>Administracion DP</title>
+</head>
+<body>
+    <section class="s-fixed navbar-section" id="navbars">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a href="#"><img class="logo-nav" src="./src/img/logopasteles.PNG" alt=""></a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <div class="n-left s-cross-center">
+                        <li class="nav-item niv">
+                            <div class="sabor-div">
+                                <a id="sabor-btn" class="nav-link nbtn" href="#pedidos-section">Pedidos</a>
+                            </div>
+                        </li>
+                        <li class="nav-item niv">
+                            <div class="pedidoo-div">
+                                <a id="pedido-btn" class="nav-link" href="#inventario-section">Inventario</a>
+                            </div>
+                        </li>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+    </section>
+    <section class="navbar-section" id="navbars">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a href="#"><img class="logo-nav" src="./src/img/logopasteles.PNG" alt=""></a>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <div class="n-left s-cross-center">
+                        <li class="nav-item niv">
+                            <div class="pedidoo-div">
+                                <a id="pedido-btn" class="nav-link" href="#inventario-section">Inventario</a>
+                            </div>
+                        </li>
+                        <li class="nav-item niv">
+                            <div class="sabor-div">
+                                <a id="sabor-btn" class="nav-link nbtn" href="#pedidos-section">Pedidos</a>
+                            </div>
+                        </li>
+                    </div>
+                </ul>
+                
+            </div>
+        </nav>
+    </section>
+    <section class="sections" id="inventario-section">
+        <h1>Inventario disponible:</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Cantidad</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Chocolate</td>
+                    <td>3 Kg</td>
+                </tr>
+                <tr>
+                    <td>Vainilla</td>
+                    <td>4 Kg</td>
+                </tr>
+                <tr>
+                    <td>Mezcla marmoleado</td>
+                    <td>2 Kg</td>
+                </tr>
+                <tr>
+                    <td>Mezcla Zanahoria</td>
+                    <td>6 Kg</td>
+                </tr>
+                <tr>
+                    <td>Leche</td>
+                    <td>10 botellas</td>
+                </tr>
+                <tr>
+                    <td>Estrellas</td>
+                    <td>30 unidades</td>
+                </tr>
+                <tr>
+                    <td>Cintas</td>
+                    <td>10 unidades</td>
+                </tr>
+                <tr>
+                    <td>Moldes</td>
+                    <td>5 unidades</td>
+                </tr>
+                <tr>
+                    <td>Cubiertas de plastico</td>
+                    <td>5 unidades</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section class="sections" id="pedidos-section">
+        <h1>Pedidos:</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Celular</th>
+                    <th>Email</th>
+                    <th>Sabores</th>
+                    <th>Adornos</th>
+                    <th>Fecha Encargo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Juan Pablo Perez</td>
+                    <td>5500112233</td>
+                    <td>jpabloperez@gmail.com</td>
+                    <td>Vainilla y Zanahoria</td>
+                    <td>Nombre personalizado</td>
+                    <td>05/03/2022</td>
+                </tr>
+                <tr>
+                    <td>Martin Martinez</td>
+                    <td>5522334455</td>
+                    <td>mmartinez5@gmail.com</td>
+                    <td>Marmoleado</td>
+                    <td>Cubierta de Chocolate</td>
+                    <td>06/03/2022</td>
+                </tr>
+                <tr>
+                    <td>Maria Suarez</td>
+                    <td>5545678922</td>
+                    <td>suarezmaria@gmail.com</td>
+                    <td>Zanahoria y Marmoleado</td>
+                    <td>Glaseado, Nombre Personalizado, Imagen decorativa</td>
+                    <td>06/03/2022</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <footer>
+        <div class="container-fluid footer-section">
+            <i class="fab fa-facebook-f social-icon"></i>
+            <i class="fab fa-instagram social-icon"></i>
+            <i class="fab fa-twitter social-icon"></i>
+            <i class="fas fa-envelope social-icon"></i>
+            <p>© Copyright 2022 Dulce Postres </p>
+        </div>
+    </footer>
+</body>
+</html>
